@@ -26,7 +26,7 @@ const DetalleCliente = () => {
       );
 
       if (respuesta.ok) {
-        setMensaje("Cliente eliminado correctamente");
+        setMensaje("Cliente Eliminado Correctamente");
 
         setTimeout(() => {
           navigate("/clientes");
