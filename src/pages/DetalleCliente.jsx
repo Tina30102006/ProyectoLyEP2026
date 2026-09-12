@@ -52,11 +52,11 @@ const DetalleCliente = () => {
   }
 
   return (
-    <div className="detalle-cliente">
+    <div className="Detalle-Cliente">
       <h1>Ficha del Cliente</h1>
-      <p>Rol actual: {role}</p>
+      <p>Rol Actual: {role}</p>
 
-      {mensaje && <p className='mensaje-eliminado'>{mensaje}</p>}
+      {mensaje && <p className='Mensaje-Eliminado'>{mensaje}</p>}
 
       <p>
         <strong>ID:</strong> {cliente.id}
