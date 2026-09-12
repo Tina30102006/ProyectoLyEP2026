@@ -39,7 +39,7 @@ const DetalleCliente = () => {
 
   const confirmarEliminacion = () => {
     const confirmar = window.confirm(
-      "¿Estás seguro de que desea eliminar este cliente?"
+      "¿Está seguro de que desea eliminar este cliente?"
     );
 
     if (confirmar) {
